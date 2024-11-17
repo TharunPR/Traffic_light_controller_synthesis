@@ -2,41 +2,41 @@
 
 **Aim:**
 
-Synthesize Traffic Light Controller design using Constraints and analyse area and Power reports.
+&emsp;&emsp;Synthesize Traffic Light Controller design using Constraints and analyse area and Power reports.
 
 **Tool Required:**
 
-Functional Simulation: Incisive Simulator (ncvlog, ncelab, ncsim)
+&emsp;&emsp;Functional Simulation: Incisive Simulator (ncvlog, ncelab, ncsim)
 
-Synthesis: Genus
+&emsp;&emsp;Synthesis: Genus
 
 **Step 1: Getting Started**
 
-Synthesis requires three files as follows,
+&emsp;&emsp;Synthesis requires three files as follows,
 
-◦ Liberty Files (.lib)
+&emsp;&emsp;&emsp;&emsp;◦ Liberty Files (.lib)
 
-◦ Verilog/VHDL Files (.v or .vhdl or .vhd)
+&emsp;&emsp;&emsp;&emsp;◦ Verilog/VHDL Files (.v or .vhdl or .vhd)
 
 **Step 2 : Creating an SDC File**
 
-•	In your terminal type “gedit input_constraints.sdc” to create an SDC File if you do not have one.
+&emsp;&emsp;•	In your terminal type “gedit input_constraints.sdc” to create an SDC File if you do not have one.
 
-** Step 3 : Performing Synthesis**
+**Step 3 : Performing Synthesis**
 
-The Liberty files are present in the library path,
+&emsp;&emsp;The Liberty files are present in the library path,
 
-• The Available technology nodes are 180nm ,90nm and 45nm.
+&emsp;&emsp;&emsp;&emsp;• The Available technology nodes are 180nm ,90nm and 45nm.
 
-• In the terminal, initialise the tools with the following commands if a new terminal is being used.
+&emsp;&emsp;&emsp;&emsp;• In the terminal, initialise the tools with the following commands if a new terminal is being used.
 
-◦ csh
+&emsp;&emsp;&emsp;&emsp;◦ csh
 
-◦ source /cadence/install/cshrc
+&emsp;&emsp;&emsp;&emsp;◦ source /cadence/install/cshrc
 
-• The tool used for Synthesis is “Genus”. Hence, type “genus -gui” to open the tool.
+&emsp;&emsp;&emsp;&emsp;• The tool used for Synthesis is “Genus”. Hence, type “genus -gui” to open the tool.
 
-• Genus Script file with .tcl file Extension commands are executed one by one to synthesize the netlist.
+&emsp;&emsp;&emsp;&emsp;• Genus Script file with .tcl file Extension commands are executed one by one to synthesize the netlist.
 
 **Synthesis RTL Schematic :**
 
@@ -53,4 +53,4 @@ The Liberty files are present in the library path,
 
 **Result:**
 
-The generic netlist of Traffic Light Controller has been created, and area, power reports have been tabulated and generated using Genus.
+&emsp;&emsp;The generic netlist of Traffic Light Controller has been created, and area, power reports have been tabulated and generated using Genus.
