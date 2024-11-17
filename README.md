@@ -51,6 +51,10 @@
 
 ![Screenshot 2024-11-16 163536](https://github.com/user-attachments/assets/9eff52de-a7cc-4488-bb21-2bf0b30dc2f9)
 
+**Timing Report:**
+
+![Screenshot (1)](https://github.com/user-attachments/assets/d82190a5-7965-4c56-89d0-47f978a6722a)
+
 **Result:**
 
-&emsp;&emsp;The generic netlist of Traffic Light Controller has been created, and area, power reports have been tabulated and generated using Genus.
+&emsp;&emsp;The generic netlist of Traffic Light Controller has been created, and area, power and timing reports have been tabulated and generated using Genus.
