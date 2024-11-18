@@ -1,4 +1,4 @@
-# Exp:6 Traffic light Controller-Synthesize the Gate Level Netlist and tabulate Area ,Power and timing reports.(Using Genus in Cadence)
+# Exp-No:6 - Traffic light Controller-Synthesize the Gate Level Netlist and tabulate Area ,Power and timing reports.(Using Genus in Cadence)
 
 **Aim:** <br>
 <br>
